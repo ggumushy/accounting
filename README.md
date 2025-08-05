@@ -1,157 +1,110 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Accounting Quiz: Balance Sheet, Current Ratio & Accounting Equation</title>
+  <title>Efficiency Ratios Quiz</title>
   <style>
-    body {
-      font-family: Arial;
-      margin: 30px;
-    }
-    .question {
-      margin-bottom: 20px;
-    }
-    textarea {
-      width: 100%;
-      height: 80px;
-    }
-    button {
-      padding: 10px 20px;
-      margin-top: 20px;
-    }
-    .result {
-      margin-top: 30px;
-      background-color: #f0f8ff;
-      padding: 20px;
-      border: 1px solid #ccc;
-    }
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .question { margin-bottom: 20px; }
+    .result { margin-top: 20px; font-weight: bold; }
+    .suggestion { color: green; }
+    .wrong { color: red; }
   </style>
 </head>
 <body>
 
-  <h1>Accounting Quiz</h1>
-  <form id="quizForm">
+<h2>Efficiency Ratios (DTR, CTR, ITR, WCTR) - Hard Level Quiz</h2>
 
-    <!-- MCQ Questions -->
-    <div class="question">
-      <p><b>1. What does the accounting equation represent?</b></p>
-      <input type="radio" name="q1" value="A"> A. Assets = Revenue - Liabilities<br>
-      <input type="radio" name="q1" value="B"> B. Assets = Liabilities + Owner's Equity<br>
-      <input type="radio" name="q1" value="C"> C. Assets = Liabilities - Equity<br>
-      <input type="radio" name="q1" value="D"> D. Assets = Expenses + Revenue<br>
-    </div>
+<form id="quizForm">
+  <div class="question">
+    <p>1. A company has net credit sales of ₹12,00,000 and average accounts receivable of ₹2,00,000. What is the Debtor Turnover Ratio?</p>
+    <input type="radio" name="q1" value="A"> A. 4 times<br>
+    <input type="radio" name="q1" value="B"> B. 5 times<br>
+    <input type="radio" name="q1" value="C"> C. 6 times<br>
+    <input type="radio" name="q1" value="D"> D. 8 times<br>
+  </div>
 
-    <div class="question">
-      <p><b>2. Which of the following is a current asset?</b></p>
-      <input type="radio" name="q2" value="A"> A. Land<br>
-      <input type="radio" name="q2" value="B"> B. Machinery<br>
-      <input type="radio" name="q2" value="C"> C. Inventory<br>
-      <input type="radio" name="q2" value="D"> D. Patents<br>
-    </div>
+  <div class="question">
+    <p>2. Which of the following best describes a low Inventory Turnover Ratio?</p>
+    <input type="radio" name="q2" value="A"> A. High sales and efficient stock control<br>
+    <input type="radio" name="q2" value="B"> B. Inefficient inventory management and overstocking<br>
+    <input type="radio" name="q2" value="C"> C. Rapid inventory movement<br>
+    <input type="radio" name="q2" value="D"> D. Good working capital control<br>
+  </div>
 
-    <div class="question">
-      <p><b>3. What does a current ratio of less than 1 indicate?</b></p>
-      <input type="radio" name="q3" value="A"> A. Strong liquidity position<br>
-      <input type="radio" name="q3" value="B"> B. Solvency issues<br>
-      <input type="radio" name="q3" value="C"> C. Short-term liabilities exceed current assets<br>
-      <input type="radio" name="q3" value="D"> D. Company has no liabilities<br>
-    </div>
+  <div class="question">
+    <p>3. A high Working Capital Turnover Ratio (WCTR) usually means:</p>
+    <input type="radio" name="q3" value="A"> A. Efficient use of working capital in generating sales<br>
+    <input type="radio" name="q3" value="B"> B. Excess working capital<br>
+    <input type="radio" name="q3" value="C"> C. High investment in fixed assets<br>
+    <input type="radio" name="q3" value="D"> D. Poor sales performance<br>
+  </div>
 
-    <div class="question">
-      <p><b>4. Which item appears on a balance sheet?</b></p>
-      <input type="radio" name="q4" value="A"> A. Sales revenue<br>
-      <input type="radio" name="q4" value="B"> B. Cost of goods sold<br>
-      <input type="radio" name="q4" value="C"> C. Accounts payable<br>
-      <input type="radio" name="q4" value="D"> D. Rent expense<br>
-    </div>
+  <div class="question">
+    <p>4. If a firm’s average accounts payable is ₹1,50,000 and net credit purchases are ₹9,00,000, what is the Creditor Turnover Ratio?</p>
+    <input type="radio" name="q4" value="A"> A. 4 times<br>
+    <input type="radio" name="q4" value="B"> B. 5 times<br>
+    <input type="radio" name="q4" value="C"> C. 7 times<br>
+    <input type="radio" name="q4" value="D"> D. 6 times<br>
+  </div>
 
-    <div class="question">
-      <p><b>5. If assets are ₹2,00,000 and liabilities are ₹1,20,000, what is equity?</b></p>
-      <input type="radio" name="q5" value="A"> A. ₹80,000<br>
-      <input type="radio" name="q5" value="B"> B. ₹3,20,000<br>
-      <input type="radio" name="q5" value="C"> C. ₹1,20,000<br>
-      <input type="radio" name="q5" value="D"> D. ₹2,80,000<br>
-    </div>
+  <div class="question">
+    <p>5. Which scenario is most likely if Debtor Turnover Ratio decreases significantly?</p>
+    <input type="radio" name="q5" value="A"> A. Better cash management<br>
+    <input type="radio" name="q5" value="B"> B. Collection period has increased, affecting liquidity<br>
+    <input type="radio" name="q5" value="C"> C. Sales have improved<br>
+    <input type="radio" name="q5" value="D"> D. Debtors are being paid faster<br>
+  </div>
 
-    <div class="question">
-      <p><b>6. What is the ideal current ratio generally recommended?</b></p>
-      <input type="radio" name="q6" value="A"> A. 1:1<br>
-      <input type="radio" name="q6" value="B"> B. 3:1<br>
-      <input type="radio" name="q6" value="C"> C. 2:1<br>
-      <input type="radio" name="q6" value="D"> D. 0.5:1<br>
-    </div>
+  <button type="button" onclick="checkAnswers()">Submit Answers</button>
+</form>
 
-    <div class="question">
-      <p><b>7. Which of the following transactions increases both assets and liabilities?</b></p>
-      <input type="radio" name="q7" value="A"> A. Purchase of inventory with cash<br>
-      <input type="radio" name="q7" value="B"> B. Taking a loan from bank<br>
-      <input type="radio" name="q7" value="C"> C. Depreciation on machinery<br>
-      <input type="radio" name="q7" value="D"> D. Owner's capital investment<br>
-    </div>
+<div id="result" class="result"></div>
 
-    <!-- Subjective Questions -->
-    <div class="question">
-      <p><b>8. Explain the importance of current ratio in financial analysis.</b></p>
-      <textarea name="sub1" placeholder="Write your answer here..."></textarea>
-    </div>
+<script>
+function checkAnswers() {
+  const answers = {
+    q1: "C",
+    q2: "B",
+    q3: "A",
+    q4: "D",
+    q5: "B"
+  };
 
-    <div class="question">
-      <p><b>9. What are the limitations of the balance sheet?</b></p>
-      <textarea name="sub2" placeholder="Write your answer here..."></textarea>
-    </div>
+  let score = 0;
+  let resultText = "";
+  let suggestions = "";
 
-    <div class="question">
-      <p><b>10. How does the accounting equation help in double-entry bookkeeping?</b></p>
-      <textarea name="sub3" placeholder="Write your answer here..."></textarea>
-    </div>
-
-    <button type="button" onclick="calculateResult()">Submit</button>
-
-    <!-- Result Section -->
-    <div class="result" id="result" style="display:none;"></div>
-
-  </form>
-
-  <script>
-    const answers = {
-      q1: 'B',
-      q2: 'C',
-      q3: 'C',
-      q4: 'C',
-      q5: 'A',
-      q6: 'C',
-      q7: 'B'
-    };
-
-    function calculateResult() {
-      let score = 0;
-      let total = 70;
-      for (let i = 1; i <= 7; i++) {
-        let q = document.querySelector(`input[name="q${i}"]:checked`);
-        if (q && q.value === answers["q" + i]) {
-          score += 10;
-        }
+  for (let i = 1; i <= 5; i++) {
+    const q = document.querySelector(`input[name="q${i}"]:checked`);
+    if (q) {
+      if (q.value === answers[`q${i}`]) {
+        score++;
+      } else {
+        suggestions += `<p class="wrong">Question ${i}: Incorrect. <br><span class="suggestion">Suggested: ${getSuggestion(i)}</span></p>`;
       }
-
-      let feedback = `<h2>Result</h2>`;
-      feedback += `<p><strong>MCQ Score:</strong> ${score} / ${total}</p>`;
-
-      // Subjective Answers (basic validation and improvement suggestions)
-      let sub1 = document.querySelector('textarea[name="sub1"]').value.trim();
-      let sub2 = document.querySelector('textarea[name="sub2"]').value.trim();
-      let sub3 = document.querySelector('textarea[name="sub3"]').value.trim();
-
-      feedback += `<h3>Subjective Feedback</h3>`;
-
-      feedback += `<p><b>Q8:</b> ${sub1.length > 50 ? 'Good explanation.' : 'Try to elaborate on why current ratio reflects liquidity.'}</p>`;
-      feedback += `<p><b>Q9:</b> ${sub2.length > 50 ? 'Well discussed.' : 'Add points like historical cost, off-balance sheet items, etc.'}</p>`;
-      feedback += `<p><b>Q10:</b> ${sub3.length > 50 ? 'Clear answer.' : 'Mention how both sides of the equation must always balance.'}</p>`;
-
-      feedback += `<p><strong>Suggestion:</strong> Review concepts of liquidity analysis, accounting principles, and practical limitations of financial statements.</p>`;
-
-      document.getElementById("result").innerHTML = feedback;
-      document.getElementById("result").style.display = "block";
+    } else {
+      suggestions += `<p class="wrong">Question ${i}: Not answered.</p>`;
     }
-  </script>
+  }
+
+  resultText = `<p>Your Score: ${score}/5</p>`;
+  document.getElementById("result").innerHTML = resultText + suggestions;
+}
+
+function getSuggestion(qNum) {
+  switch (qNum) {
+    case 1:
+      return "Debtor Turnover Ratio = Net Credit Sales / Average Receivables. So, 12,00,000 / 2,00,000 = 6.";
+    case 2:
+      return "Low ITR means stock is moving slowly, which may indicate poor sales or overstocking.";
+    case 3:
+      return "High WCTR means the firm is efficiently using working capital to generate revenue.";
+    case 4:
+      return "CTR = Net Credit Purchases / Average Payables = 9,00,000 / 1,50,000 = 6.";
+    case 5:
+      return "Falling DTR means slow debtor collection, increasing the risk of bad debts and liquidity issues.";
+  }
+}
+</script>
 
 </body>
 </html>
