@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<h2>Efficiency Ratios (DTR, CTR, ITR, WCTR) - Hard Level Quiz</h2>
+<h2>Efficiency Ratios Quiz</h2>
 
 <form id="quizForm">
   <div class="question">
